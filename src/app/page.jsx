@@ -4,6 +4,7 @@ import Image from "next/image";
 import Projects from "@/components/home/Projects";
 import Benefits from "@/components/home/Benefits";
 import Comments from "@/components/home/Comments";
+import CTA from "@/components/common/CTA";
 
 export default function Home() {
 
@@ -21,6 +22,9 @@ export default function Home() {
 
        {/* comments */}
        <Comments />
+
+       {/* CTA */}
+       <CTA />
 
     </main>
   );
