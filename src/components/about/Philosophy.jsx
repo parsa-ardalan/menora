@@ -9,7 +9,7 @@ export default function Philosophy() {
                    هدف اصلی ما
                 </span>
 
-                <h2 className="mt-7 text-4xl font-black leading-tight text-primary md:text-6xl">
+                <h2 className="mt-7 text-2xl lg:text-4xl font-black leading-10 text-primary">
                     منوی شما،
                     <br />
                     <span className="opacity-50">

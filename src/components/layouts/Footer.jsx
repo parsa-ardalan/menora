@@ -74,8 +74,8 @@ export default function Footer() {
                                 href="tel:+989375632332"
                                 className="flex items-center gap-3 transition-colors hover:text-primary"
                             >
-                                <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-stone-100 text-primary">
-                                    ☎
+                                <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary relative">
+                                    <Image src={"/icons/phone.png"} alt="☎" fill className="object-cover" />
                                 </span>
 
                                 <span dir="ltr">
@@ -87,8 +87,8 @@ export default function Footer() {
                                 href="mailto:menora.menu@gmail.com"
                                 className="flex items-center gap-3 transition-colors hover:text-primary"
                             >
-                                <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-stone-100 text-primary">
-                                    @
+                                <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary relative">
+                                    <Image src={"/icons/gmail.png"} alt="☎" fill className="object-cover" />
                                 </span>
 
                                 <span>

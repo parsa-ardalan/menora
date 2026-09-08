@@ -36,7 +36,7 @@ export default function Features() {
                     امکانات بیشتر
                 </span>
 
-                <h2 className="mt-2 text-2xl font-bold text-primary sm:text-3xl">
+                <h2 className="mt-2 text-xl lg:text-2xl font-bold text-primary">
                     فقط یک منوی ساده نیست
                 </h2>
 

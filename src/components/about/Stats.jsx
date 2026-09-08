@@ -45,7 +45,7 @@ export default function Stats() {
                                رزومه کاری ما
                             </span>
 
-                            <h2 className="mt-5 text-3xl font-black leading-tight text-white md:text-5xl">
+                            <h2 className="mt-5 text-2xl lg:text-2xl font-black leading-tight text-white">
                                 تجربه‌ای که با هر پروژه
                                 <br />
                                 بیشتر می‌شود

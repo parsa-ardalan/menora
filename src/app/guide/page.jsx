@@ -43,11 +43,7 @@ export default function Guide() {
 
                 {/* FAQ */}
                <FAQ />
-
-
-                {/* CTA */}
-                <CTA />
-
+               
             </div>
 
         </main>

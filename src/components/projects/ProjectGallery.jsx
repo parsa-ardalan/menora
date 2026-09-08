@@ -9,7 +9,7 @@ export default function projectGallery({ project }) {
 
     return (
 
-        <section className="mt-12">
+        <section className="mt-10 px-5">
 
             <div className="mb-5 flex items-end justify-between px-5 lg:px-8">
 
@@ -30,7 +30,7 @@ export default function projectGallery({ project }) {
             <Swiper
                 spaceBetween={12}
                 loop
-                slidesPerView={1.15}
+                slidesPerView={1.5}
                 breakpoints={{
                     640: {
                         slidesPerView: 2.5,

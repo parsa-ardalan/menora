@@ -14,7 +14,7 @@ export default function OurJob() {
                         کار ما چیست؟
                     </span>
 
-                    <h2 className="mt-5 text-3xl font-black text-primary md:text-5xl">
+                    <h2 className="mt-5 text-2xl lg:text-3xl font-black text-primary">
                         تخصص ما،
                         <br />
                         طراحی منوی دیجیتال است
@@ -39,7 +39,7 @@ export default function OurJob() {
                             ✦
                         </div>
 
-                        <h3 className="mt-7 text-xl font-bold text-primary">
+                        <h3 className="mt-5 text-xl font-bold text-primary">
                             طراحی اختصاصی
                         </h3>
 
@@ -48,7 +48,7 @@ export default function OurJob() {
                             طراحی می‌شود.
                         </p>
 
-                        <div className="mt-7 h-px w-full bg-gray-100" />
+                        <div className="mt-5 h-px w-full bg-gray-100" />
 
                         <span className="mt-4 block text-xs font-semibold text-primary">
                             متناسب با مجموعه
@@ -63,7 +63,7 @@ export default function OurJob() {
                             ◇
                         </div>
 
-                        <h3 className="mt-7 text-xl font-bold text-white">
+                        <h3 className="mt-5 text-xl font-bold text-white">
                             انعطاف‌پذیر
                         </h3>
 
@@ -72,7 +72,7 @@ export default function OurJob() {
                             دارای پرداخت آنلاین.
                         </p>
 
-                        <div className="mt-7 h-px w-full bg-white/10" />
+                        <div className="mt-5 h-px w-full bg-white/10" />
 
                         <span className="mt-4 block text-xs font-semibold text-white/70">
                             طراحی منعطف
@@ -87,7 +87,7 @@ export default function OurJob() {
                             ∞
                         </div>
 
-                        <h3 className="mt-7 text-xl font-bold text-primary">
+                        <h3 className="mt-5 text-xl font-bold text-primary">
                             بدون محدودیت UI
                         </h3>
 
@@ -96,7 +96,7 @@ export default function OurJob() {
                             نمی‌شود.
                         </p>
 
-                        <div className="mt-7 h-px w-full bg-gray-100" />
+                        <div className="mt-5 h-px w-full bg-gray-100" />
 
                         <span className="mt-4 block text-xs font-semibold text-primary">
                             طبق سلیفه شما

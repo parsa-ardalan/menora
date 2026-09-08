@@ -10,30 +10,58 @@ export default function Comments() {
     const displayedComments = showAll ? comments : comments.slice(0, 3);
 
     return (
-        <section className="py-10">
-            <div className="mx-auto max-w-6xl">
-                <div className="mb-6">
-                    <h2 className="text-2xl font-bold text-primary">نظر مشتریان</h2>
-                    <p className="mt-2 text-sm text-gray-500">تجربه مشتریان از منورا</p>
+        <section className="w-full py-12 sm:py-16 md:py-20">
+
+            <div className="mx-auto w-full max-w-6xl px-6 sm:px-10 md:px-12 lg:px-8">
+
+                {/* header */}
+                <div className="mb-6 sm:mb-8 md:mb-10 text-center sm:text-right">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
+                        نظر مشتریان
+                    </h2>
+
+                    <p className="mt-2 sm:mt-3 text-sm sm:text-base md:text-lg text-gray-500">
+                        تجربه مشتریان از منورا
+                    </p>
                 </div>
 
-                <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+                {/* comments */}
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 sm:gap-5 lg:gap-6">
                     {displayedComments.map((item) => (
                         <Comment key={item.phoneNumber} comment={item} />
                     ))}
                 </div>
 
+                {/* show more */}
                 {!showAll && comments.length > 3 && (
-                        <div className="mt-6 flex justify-center">
-                            <button
-                                onClick={() => setShowAll(true)}
-                                className="rounded-xl border border-stone-200 px-6 py-3 text-sm font-medium text-primary transition hover:bg-stone-50"
+                    <div className="mt-8 sm:mt-10 flex justify-center">
+                        <button
+                            onClick={() => setShowAll(true)}
+                            className="group w-full h-14 lg:h-16 lg:w-4/5 flex items-center justify-center gap-2 rounded-2xl  border border-primary/20 bg-white px-3 text-sm font-bold text-primary shadow-sm transition-all duration-300  hover:-translate-y-0.5 hover:border-primary hover:bg-primary hover:text-white hover:shadow-md"
+                        >
+                            <span>مشاهده بیشتر</span>
+
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                strokeWidth={2}
+                                stroke="currentColor"
+                                className="size-4 transition-transform duration-300 group-hover:-translate-y-0.5"
                             >
-                                مشاهده بیشتر
-                            </button>
-                        </div>
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    d="M19.5 8.25 12 15.75 4.5 8.25"
+                                />
+                            </svg>
+                        </button>
+                    </div>
                 )}
+
             </div>
+
         </section>
     );
 }

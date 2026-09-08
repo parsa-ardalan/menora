@@ -16,7 +16,7 @@ export default function Clients() {
                         افتخارات ما
                     </span>
 
-                    <h2 className="mt-5 text-3xl font-black text-primary md:text-5xl">
+                    <h2 className="mt-5 text-xl lg:text-3xl font-black text-primary">
                         افتخار همکاری با برندهای معتبر
                     </h2>
 

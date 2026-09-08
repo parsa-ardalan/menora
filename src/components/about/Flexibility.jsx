@@ -1,7 +1,7 @@
 export default function Flexibility() {
 
     return (
-        <section className="px-5 py-20 md:py-28 animate-fade-up-delay-3">
+        <section className="px-5 py-10 lg:py-20 animate-fade-up-delay-3">
 
             <div className="mx-auto max-w-6xl">
 
@@ -13,7 +13,7 @@ export default function Flexibility() {
                             طراحی منعطف
                         </span>
 
-                        <h2 className="mt-5 text-3xl font-black text-primary md:text-5xl">
+                        <h2 className="mt-5 text-2xl lg:text-3xl font-black text-primary">
                             یک منو،
                             <br />
                             متناسب با نیاز شما
@@ -35,7 +35,7 @@ export default function Flexibility() {
 
                         <div className="relative">
 
-                            <h3 className="mt-12 text-2xl font-black text-primary">
+                            <h3 className="mt-12 text-xl lg:text-2xl font-black text-primary">
                                 منوی استاتیک
                             </h3>
 
@@ -60,7 +60,7 @@ export default function Flexibility() {
 
                         <div className="relative">
 
-                            <h3 className="mt-12 text-2xl font-black text-white">
+                            <h3 className="mt-12 text-xl lg:text-2xl font-black text-white">
                                 منوی تعاملی و پرداخت آنلاین
                             </h3>
 

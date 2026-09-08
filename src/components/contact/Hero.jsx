@@ -1,7 +1,7 @@
 export default function Hero() {
 
     return (
-        <section className="px-5 pt-16 pb-10 sm:px-8 lg:px-16 animate-fade-up-delay-2">
+        <section className="px-5 mb-5 lg:mb-10 sm:px-8 lg:px-16 animate-fade-up-delay-2">
             <div className="mx-auto max-w-6xl">
                 <div className="max-w-3xl">
 

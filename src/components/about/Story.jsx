@@ -2,7 +2,7 @@ export default function Story() {
 
     return (
 
-        < section className="px-5 py-20 md:py-28 animate-fade-up-delay-1" >
+        < section className="px-5 animate-fade-up-delay-1" >
 
             <div className="mx-auto max-w-6xl">
 
@@ -14,7 +14,7 @@ export default function Story() {
                            درباره ما
                         </span>
 
-                        <h2 className="mt-5 text-3xl font-black leading-tight text-primary md:text-5xl">
+                        <h2 className="mt-5 text-2xl lg:text-3xl font-black leading-tight text-primary">
                             یک ایده ساده،
                             <br />
                             یک مسیر متفاوت

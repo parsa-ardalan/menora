@@ -24,7 +24,7 @@ export default function QR() {
                     منوی دیجیتال
                 </span>
 
-                <h2 className="mt-2 text-2xl font-bold text-primary sm:text-3xl">
+                <h2 className="mt-2 text-xl lg:text-2xl font-bold text-primary sm:text-3xl">
                     مشتری فقط QR Code را اسکن می‌کند
                 </h2>
 

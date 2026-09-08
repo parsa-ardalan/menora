@@ -40,24 +40,16 @@ export default function Massengers() {
 
                 <div className="mb-7 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
 
-                    <div>
+                    <h2 className="mt-2 text-xl font-bold">
+                        هر جا راحت‌تری، با ما در ارتباط باش
+                    </h2>
 
-                        <span className="text-xs font-semibold text-blue-600">
-                            پیام‌رسان‌ها
-                        </span>
-
-                        <h2 className="mt-2 text-2xl font-bold sm:text-3xl">
-                            هر جا راحت‌تری، با ما در ارتباط باش
-                        </h2>
-
-                    </div>
-
-                    <p className="max-w-sm text-sm leading-6 text-stone-500">
-                        برای هماهنگی، دریافت مشاوره یا رزرو منورا
-                        می‌توانید از پیام‌رسان موردنظرتان استفاده کنید.
-                    </p>
+                    <span className="hidden lg:block text-xs font-semibold text-primary">
+                        پیام‌رسان‌ها
+                    </span>
 
                 </div>
+
 
 
                 <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">

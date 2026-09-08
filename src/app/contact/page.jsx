@@ -7,7 +7,7 @@ import Reservation from "@/components/contact/Reservation"
 export default function Contact() {
 
     return (
-        <main className="min-h-screen bg-white text-stone-900 pt-20 animate-fade-up-delay-1">
+        <main className="min-h-screen bg-white text-stone-900 pt-28 pb-20 animate-fade-up-delay-1">
 
             {/* Hero */}
             <Hero />

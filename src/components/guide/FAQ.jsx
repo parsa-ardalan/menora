@@ -24,7 +24,7 @@ export default function FAQ() {
     ]
 
     return (
-        <section className="mb-20">
+        <section>
 
             <div className="mb-8">
 
@@ -43,7 +43,7 @@ export default function FAQ() {
                 {faqs.map((item) => (
                     <details key={item.question} className="group py-5">
 
-                        <summary className="flex cursor-pointer list-none items-center justify-between gap-5 font-semibold text-primary">
+                        <summary className="flex cursor-pointer list-none items-center justify-between gap-5 font-semibold text-primary text-sm lg:text-md">
 
                             {item.question}
 
@@ -53,7 +53,7 @@ export default function FAQ() {
 
                         </summary>
 
-                        <p className="mt-4 max-w-3xl text-sm leading-7 text-gray-500">
+                        <p className="mt-4 max-w-3xl text-sm leading-6 text-gray-500">
                             {item.answer}
                         </p>
 
