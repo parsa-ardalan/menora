@@ -1,0 +1,44 @@
+[
+    {
+        "slug" : "cafe-noir",
+        "name": "کافه نویر",
+        "info": "کافه نویر، جرعه ای آرامش همراه با تکه ای عشق. پاییز خود را با فنجانی چای خوش طعم کنید.",
+        "address": "مشهد - بلوار وکیل آباد - وکیل آباد 24",
+        "logo": "/projects/noir/logo.png",
+        "images": [
+            "/projects/noir/home.png",
+            "/projects/noir/hot.png",
+            "/projects/noir/cold.png",
+            "/projects/noir/dessert.png",
+            "/projects/noir/cart.png"
+        ]
+    },
+    {
+        "slug" : "cafe-mora",
+        "name": "کافه مورا",
+        "info": "کافه نویر، جرعه ای آرامش همراه با تکه ای عشق. پاییز خود را با فنجانی چای خوش طعم کنید.",
+        "address": "مشهد - بلوار وکیل آباد - وکیل آباد 24",
+        "logo": "/projects/noir/logo.png",
+        "images": [
+            "/projects/noir/home.png",
+            "/projects/noir/hot.png",
+            "/projects/noir/cold.png",
+            "/projects/noir/dessert.png",
+            "/projects/noir/cart.png"
+        ]
+    },
+    {
+        "slug" : "cafe-salam",
+        "name": "کافه سلام",
+        "info": "کافه نویر، جرعه ای آرامش همراه با تکه ای عشق. پاییز خود را با فنجانی چای خوش طعم کنید.",
+        "address": "مشهد - بلوار وکیل آباد - وکیل آباد 24",
+        "logo": "/projects/noir/logo.png",
+        "images": [
+            "/projects/noir/home.png",
+            "/projects/noir/hot.png",
+            "/projects/noir/cold.png",
+            "/projects/noir/dessert.png",
+            "/projects/noir/cart.png"
+        ]
+    }
+]
