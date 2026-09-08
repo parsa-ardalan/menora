@@ -3,11 +3,12 @@ import Hero from "@/components/home/Hero";
 import Image from "next/image";
 import Projects from "@/components/home/Projects";
 import Benefits from "@/components/home/Benefits";
+import Comments from "@/components/home/Comments";
 
 export default function Home() {
 
   return (
-    <main className="w-screen h-fit animate-fade-up-delay-1">
+    <main className="w-screen h-fit py-20 animate-fade-up-delay-1">
 
       {/* header of the page */}
       <Hero />
@@ -17,6 +18,9 @@ export default function Home() {
 
        {/* why menora */}
        <Benefits />
+
+       {/* comments */}
+       <Comments />
 
     </main>
   );

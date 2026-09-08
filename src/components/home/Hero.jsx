@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
 
     return (
-        <header className="w-screen h-2/3 grid grid-cols-5 mt-20">
+        <header className="w-screen h-2/3 grid grid-cols-5">
 
             {/* banner */}
             <div className="col-span-5 lg:col-span-3 h-full relative z-10">
