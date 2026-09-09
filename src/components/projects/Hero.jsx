@@ -6,11 +6,11 @@ export default function Hero() {
 
                 <div className="max-w-3xl">
 
-                    <span className="text-xs sm:text-sm font-medium text-stone-500">
+                    <span className="text-sm font-medium text-stone-500">
                         پروژه‌های منورا
                     </span>
 
-                    <h1 className="mt-5 text-xl md:text-4xl lg:text-5xl text-primary font-bold leading-[1.7] sm:leading-tight">
+                    <h1 className="mt-5 text-xl md:text-3xl lg:text-3xl text-primary font-bold leading-[1.7] sm:leading-tight">
                         چیزهایی که برای دیگران ساخته ایم
                     </h1>
 

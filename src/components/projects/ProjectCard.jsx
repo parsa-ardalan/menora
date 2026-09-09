@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function ProjectCard({ project }) {
 
     return (
-        <div className="col-span-1 h-full bg-stone-100 shadow-md shadow-black/25 rounded-xl p-5">
+        <div className="col-span-1 h-full shadow-md shadow-black/25 rounded-xl p-5">
 
             {/* background */}
             <div className="w-full h-40 relative overflow-hidden rounded-lg flex items-center justify-center py-3">

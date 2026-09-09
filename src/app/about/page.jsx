@@ -36,7 +36,7 @@ export default function About() {
     }, [])
 
     return (
-        <main className="w-full overflow-hidden pt-28 animate-fade-up-delay-1">
+        <main className="w-full overflow-hidden py-28 animate-fade-up-delay-1">
 
 
             <Story />
@@ -47,7 +47,7 @@ export default function About() {
 
             <Stats />
 
-            <Clients />
+            {/* <Clients /> */}
 
             <Philosophy />
 

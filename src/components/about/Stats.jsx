@@ -7,7 +7,7 @@ export default function Stats() {
     useEffect(() => {
 
         let current = 0
-        const target = 454
+        const target = 100
         const duration = 1800
         const stepTime = duration / target
 

@@ -1,6 +1,6 @@
 [
     {
-        "slug" : "cafe-noir",
+        "slug": "cafe-noir",
         "name": "کافه نویر",
         "info": "کافه نویر، جرعه ای آرامش همراه با تکه ای عشق. پاییز خود را با فنجانی چای خوش طعم کنید.",
         "address": "مشهد - بلوار وکیل آباد - وکیل آباد 24",
@@ -14,31 +14,17 @@
         ]
     },
     {
-        "slug" : "cafe-mora",
+        "slug": "cafe-mora",
         "name": "کافه مورا",
-        "info": "کافه نویر، جرعه ای آرامش همراه با تکه ای عشق. پاییز خود را با فنجانی چای خوش طعم کنید.",
-        "address": "مشهد - بلوار وکیل آباد - وکیل آباد 24",
-        "logo": "/projects/noir/logo.png",
+        "info": "کافه رستوران مورا در منطقه هفت تیر مشهد در خدمت شماست. لذت غذاهای لذیذ و نوشیدنی های دلچسب از هدایای ما به شماست",
+        "address": "مشهد - برج تجاری آرمیتاژ - طبقه دو - پلاک 703",
+        "logo": "/projects/mora/logo.png",
         "images": [
-            "/projects/noir/home.png",
-            "/projects/noir/hot.png",
-            "/projects/noir/cold.png",
-            "/projects/noir/dessert.png",
-            "/projects/noir/cart.png"
-        ]
-    },
-    {
-        "slug" : "cafe-salam",
-        "name": "کافه سلام",
-        "info": "کافه نویر، جرعه ای آرامش همراه با تکه ای عشق. پاییز خود را با فنجانی چای خوش طعم کنید.",
-        "address": "مشهد - بلوار وکیل آباد - وکیل آباد 24",
-        "logo": "/projects/noir/logo.png",
-        "images": [
-            "/projects/noir/home.png",
-            "/projects/noir/hot.png",
-            "/projects/noir/cold.png",
-            "/projects/noir/dessert.png",
-            "/projects/noir/cart.png"
+            "/projects/mora/home.png",
+            "/projects/mora/food.png",
+            "/projects/mora/dessert.png",
+            "/projects/mora/cold.png",
+            "/projects/mora/hot.png"
         ]
     }
 ]
