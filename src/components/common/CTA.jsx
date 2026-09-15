@@ -23,7 +23,7 @@ export default function CTA() {
                     </p>
 
                     <a
-                        href="tel:+989375632332"
+                        href="tel:+989046814382"
                         className="mt-6 sm:mt-7 inline-flex w-full sm:w-fit h-13 sm:h-14 items-center justify-center rounded-2xl bg-stone-950 px-8 sm:px-10 text-sm sm:text-base font-semibold text-white transition duration-300 hover:bg-blue-600"
                     >
                         شروع همکاری

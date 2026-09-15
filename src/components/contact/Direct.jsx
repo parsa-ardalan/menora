@@ -10,7 +10,7 @@ export default function Direct() {
 
                     {/* Phone */}
                     <a
-                        href="tel:++989375632332"
+                        href="tel:+989046814382"
                         className="group rounded-3xl bg-blue-600 p-7 text-white transition duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-200 sm:p-9"
                     >
 
@@ -31,7 +31,7 @@ export default function Direct() {
                         </p>
 
                         <h3 className="mt-2 text-2xl font-bold tracking-tight text-end" dir="ltr">
-                            0937 563 2332
+                            +98 904 681 4382
                         </h3>
 
                         <p className="mt-3 text-sm leading-6 text-blue-100">

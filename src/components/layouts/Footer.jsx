@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const footerLinks = [
     { label: "صفحه اصلی", href: "/" },
-    { label: "منو", href: "/menu" },
+    { label: "منو های ما", href: "/projects" },
     { label: "درباره ما", href: "/about" },
 ];
 
@@ -71,7 +71,7 @@ export default function Footer() {
                         <div className="flex flex-col gap-3 text-sm text-gray-500">
 
                             <a
-                                href="tel:+989375632332"
+                                href="tel:+989046814382"
                                 className="flex items-center gap-3 transition-colors hover:text-primary"
                             >
                                 <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary relative">
@@ -79,7 +79,7 @@ export default function Footer() {
                                 </span>
 
                                 <span dir="ltr">
-                                    +98 937 563 2332
+                                    +98 904 681 4382
                                 </span>
                             </a>
 

@@ -9,28 +9,28 @@ export default function Massengers() {
             username: "Telegram",
             description: "ارتباط سریع و مستقیم",
             icon: "/platforms/telegram.png",
-            href: "#",
+            href: "https://t.me/menora_menu",
         },
         {
             name: "اینستاگرام",
             username: "Instagram",
             description: "ما را در اینستاگرام ببینید",
             icon: "/platforms/instagram.png",
-            href: "#",
+            href: "https://instagram.com/menora_menu",
         },
         {
             name: "واتساپ",
             username: "WhatsApp",
             description: "گفتگو و هماهنگی",
             icon: "/platforms/whatsapp.webp",
-            href: "#",
+            href: "https://wa.me/989046814382",
         },
         {
             name: "روبیکا",
             username: "Rubika",
             description: "پیام‌رسان داخلی",
             icon: "/platforms/rubika.png",
-            href: "#",
+            href: "https://rubika.ir/menora_menu",
         },
     ]
 

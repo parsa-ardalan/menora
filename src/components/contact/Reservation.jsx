@@ -25,7 +25,7 @@ export default function Reservation() {
                         </div>
 
                         <a
-                            href="tel:+989375632332"
+                            href="tel:+989046814382"
                             className="inline-flex h-12 shrink-0 items-center justify-center rounded-xl bg-stone-950 px-6 text-sm font-semibold text-white transition hover:bg-blue-600"
                         >
                             تماس برای رزرو

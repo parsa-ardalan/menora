@@ -18,7 +18,7 @@ export default function Projects() {
                     شما هم به خانواده ما بپیوندید
                 </p>
 
-                <a href="#contact" className="block w-fit">
+                <a href="/contact" className="block w-fit">
                     <button className="text-primary border border-primary text-sm sm:text-base md:text-lg font-bold w-fit h-fit py-3 px-5 sm:px-6 rounded-full mt-7 sm:mt-10 flex items-center gap-1 hover:mr-2 sm:hover:mr-5 duration-300">
                         همین الان سفارش بده
 
