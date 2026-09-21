@@ -1,13 +1,42 @@
 "use client";
 
-import { useState } from "react";
-import comments from "@/data/comments.json";
+import { useEffect, useState } from "react";
 import Comment from "./Comment";
+import axios from "axios";
+import AddNewComment from "../common/AddNewComment";
 
 export default function Comments() {
+
+    const [comments, setComments] = useState([])
+
+    useEffect(() => {
+
+        const getComments = async () => {
+
+            try {
+
+                const res = await axios.get("https://menora-backend-r61y.onrender.com/comments");
+
+                setComments(res.data)
+
+
+            } catch (error) {
+
+                console.log("comments faild: ", error)
+
+            }
+
+        }
+
+        getComments()
+
+    }, [])
+
+    console.log(comments)
+
     const [showAll, setShowAll] = useState(false);
 
-    const displayedComments = showAll ? comments : comments.slice(0, 3);
+    const displayedComments = showAll ? comments : comments.slice(0, 4);
 
     return (
         <section className="w-full py-12 sm:py-16 md:py-20">
@@ -28,9 +57,14 @@ export default function Comments() {
 
                 {/* comments */}
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 sm:gap-5 lg:gap-6">
-                    {displayedComments.map((item) => (
-                        <Comment key={item.phoneNumber} comment={item} />
+                    {displayedComments?.map((item) => (
+                        <Comment key={item?._id} comment={item} />
+
                     ))}
+
+                    {/* add new comments */}
+                   <AddNewComment key={comments.length + 1} />
+
                 </div>
 
                 {/* show more */}
